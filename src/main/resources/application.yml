@@ -1,0 +1,12 @@
+camunda:
+  bpm:
+    admin-user:
+      id: admin
+      password: admin
+    generic-properties:
+      properties:
+        enforceHistoryTimeToLive: false
+
+logging:
+  level:
+    ru.archertech.camundaspringstarter.controller: TRACE
