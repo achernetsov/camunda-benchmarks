@@ -13,30 +13,30 @@ Document Path:          /process/main/start
 Document Length:        36 bytes
 
 Concurrency Level:      40
-Time taken for tests:   2.926 seconds
+Time taken for tests:   3.071 seconds
 Complete requests:      500
 Failed requests:        0
 Total transferred:      84500 bytes
 HTML transferred:       18000 bytes
-Requests per second:    170.91 [#/sec] (mean)
-Time per request:       234.046 [ms] (mean)
-Time per request:       5.851 [ms] (mean, across all concurrent requests)
-Transfer rate:          28.21 [Kbytes/sec] received
+Requests per second:    162.79 [#/sec] (mean)
+Time per request:       245.715 [ms] (mean)
+Time per request:       6.143 [ms] (mean, across all concurrent requests)
+Transfer rate:          26.87 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.7      0       7
-Processing:   202  209   7.0    207     241
-Waiting:      201  209   7.0    207     241
-Total:        202  210   7.3    208     242
+Connect:        0    0   0.4      0       2
+Processing:   205  220  22.0    209     320
+Waiting:      205  219  21.8    209     319
+Total:        205  220  22.2    210     321
 
 Percentage of the requests served within a certain time (ms)
-  50%    208
-  66%    210
-  75%    212
-  80%    213
-  90%    219
-  95%    228
-  98%    234
-  99%    236
- 100%    242 (longest request)
+  50%    210
+  66%    215
+  75%    227
+  80%    231
+  90%    244
+  95%    268
+  98%    307
+  99%    315
+ 100%    321 (longest request)

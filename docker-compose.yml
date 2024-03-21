@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      TZ: "Europe/Moscow"
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
